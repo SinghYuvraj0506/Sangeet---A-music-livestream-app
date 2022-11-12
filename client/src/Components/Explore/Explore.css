@@ -1,0 +1,16 @@
+.explore_container{
+    margin-top: 13vh;
+}
+
+
+.exploreHeaders{
+    width: 95vw;
+    margin: auto;
+    text-align: left;
+    /* color: white; */
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.17em;
+    margin-bottom: 20px;
+    /* margin-top: 40px; */
+}

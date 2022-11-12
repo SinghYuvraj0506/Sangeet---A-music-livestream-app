@@ -6,7 +6,7 @@ function Login() {
     const navigate = useNavigate()
   return (
     <div className="login_container">
-        <img src={require("../Images/login2.png")} alt="backgroundloginimage" />
+        <img src={require("../Images/image1.jpg")} alt="backgroundloginimage" />
         <div className="login_box">
             <h1>Get Started</h1>
             <div className="login_buttons">

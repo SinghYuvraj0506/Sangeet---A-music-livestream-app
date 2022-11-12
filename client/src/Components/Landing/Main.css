@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 body{
     /* background-color: #1E1E1E; */
-    background-color: #300a5e;
+    /* background-color: #300a5e; */
+    background-color: #3CC47C;
+    -webkit-user-select: none;
 }
 
 .mainbox{
@@ -17,4 +21,39 @@ body{
 .imagebanner img{
     height: 100%;
     width: 100vw;
+}
+
+
+
+/* Recently played section css */
+
+.sectionHeaders{
+    width: 100vw;
+    text-align: center;
+    /* color: white; */
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.17em;
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+
+.recentlyplayed{
+    width: 95vw;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 80px;
+    /* background-color: #141313; */
+    background-color: #1E392A;
+    padding: 30px 40px;
+}
+
+
+/* Songs cards css */
+
+.songcards{
+    background-color: rgb(255, 255, 255);
+    width: 15vw;
+    height: 35vh;
+    border-radius: 10px;
 }

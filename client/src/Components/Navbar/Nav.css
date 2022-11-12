@@ -1,55 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap");
 
-
-.navbar-container{
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    padding: 0 25px;
-    box-sizing: border-box;
-    background-color: #4040404e;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 600;
+.navbar-container {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* color: white; */
+  padding: 0 25px;
+  box-sizing: border-box;
+  background-color: #4040404e;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  z-index: 999;
 }
 
 /* Navbar navigation texts ------------------------------- */
 
-.left_section_navbar{
-    display: flex;
-    align-items: center;
-    letter-spacing: 3px;
-    font-size: 1.1rem;
-    
+.left_section_navbar {
+  display: flex;
+  align-items: center;
+  letter-spacing: 3px;
+  font-size: 1.1rem;
 }
 
-.left_section_navbar li{
-    list-style: none;
-    margin-right: 40px;
-    cursor: pointer;
-    opacity: 0.75;
+.left_section_navbar a {
+  color: white;
 }
 
-.left_section_navbar li:hover{
-    opacity: 1;
+.left_section_navbar li {
+  list-style: none;
+  margin-right: 40px;
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.left_section_navbar li:hover {
+  opacity: 1;
 }
 
 .left_section_navbar li::before {
-    transition: 300ms;
-    height: 5px;
-    content: "";
-    position: absolute;
-    background-color: #fcfcfc;
-  }
-  
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #fcfcfc;
+}
+
 .left_section_navbar li::before {
-    width: 0%;
-    bottom: 10px;
-  }
-  
+  width: 0%;
+  bottom: 10px;
+}
+
 .left_section_navbar li:hover::before {
-    width: 40px;
-  }
+  width: 40px;
+}
+
+.active_nav {
+  color: rgb(255, 0, 0) !important;
+  font-weight: bold;
+}
